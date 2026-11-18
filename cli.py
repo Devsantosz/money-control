@@ -11,7 +11,7 @@ import database
 def main():
     database.initialize_database()
     print("Controle financeiro local. Digite 'sair' para encerrar.")
-    print("Exemplos: gasto 32,50 almoço | salario 3500 | relatorio | ajuda")
+    print("Exemplos: gasto R$32,50 almoço | salario R$3500 | relatorio | ajuda")
     while True:
         try:
             message = input("Você> ").strip()
